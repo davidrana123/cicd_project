@@ -2,10 +2,10 @@
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - '*'
+  # pull_request:
+  #   branches:
+  #     - main
 # Functions
 jobs:
   # Build Job
