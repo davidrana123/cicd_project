@@ -1,8 +1,14 @@
 # Triggers
 on:
   push:
-    branches:
-      - main
+   # for multipal defined file
+    branches: [main, updateName]
+    # this is for only main or master branch
+      # - main
+    # for all branhc 
+    #  - '*'
+   
+       
   # pull_request:
   #   branches:
   #     - main
