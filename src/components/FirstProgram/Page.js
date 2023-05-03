@@ -6,8 +6,8 @@ function Page() {
     <>
     <section className="pimg2">
         <div className="ptext">
-            <span className="textBg">Explore NATURE</span>
-            {/* <span className="textBg">Dev-Guild Meeting</span> */}
+            {/* <span className="textBg">Explore NATURE</span> */}
+            <span className="textBg">Dev-Guild Meeting</span>
         </div>
     </section>
     <section className="section section-dark">
