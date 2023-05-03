@@ -2,17 +2,17 @@
 on:
   push:
     branches:
-   # for multipal defined file
-    # branches: [main, updateName]
-
-    # this is for only main or master branch
+     # this is for only main or master branch
       - main
 
+   # for multipal defined file
+    # branches: [main, updateName]
     # for all branhc 
     #  - '*'    
   # pull_request:
   #   branches:
   #     - main
+  
 # Functions
 jobs:
   # Build Job
