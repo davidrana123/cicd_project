@@ -4,7 +4,6 @@ import './style.css';
 function Page() {
   return (
     <>
-
     <section className="pimg2">
         <div className="ptext">
             <span className="textBg">Explore NATURE</span>
